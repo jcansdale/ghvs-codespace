@@ -1,4 +1,4 @@
 {   // See https://docs.microsoft.com/en-us/visualstudio/online/reference/configuring
 
-  "postCreateCommand": "postCreate.sh"
+  "postCreateCommand": "./postCreate.sh"
 }
