@@ -1,4 +1,4 @@
 {   // See https://docs.microsoft.com/en-us/visualstudio/online/reference/configuring
 
-  "postCreateCommand": "dotnet tool update ghvs -g && export DOTNET_ROOT=$(dirname $(realpath $(which dotnet))) && export PATH=$PATH:$DOTNET_ROOT/tools"
+  "postCreateCommand": "postCreate.sh"
 }
